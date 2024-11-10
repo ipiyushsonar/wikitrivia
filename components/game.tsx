@@ -15,20 +15,24 @@ export default function Game() {
 
   React.useEffect(() => {
     const fetchGameData = async () => {
-      const res = await axios.get<string>(
-        "https://wikitrivia-data.tomjwatson.com/items.json"
-      );
-      const items: Item[] = res.data
-        .trim()
-        .split("\n")
-        .map((line) => {
-          return JSON.parse(line);
-        })
-        // Filter out questions which give away their answers
-        .filter((item) => !item.label.includes(String(item.year)));
-      setItems(items);
+      try {
+        const res = await axios.get<string>(
+          "/items.json"
+        );
+        const items: Item[] = res.data
+          .trim()
+          .split("\n")
+          .map((line) => {
+            return JSON.parse(line);
+          })
+          // Filter out questions which give away their answers
+          .filter((item) => !item.label.includes(String(item.year)));
+        setItems(items);
+      } catch (error) {
+        console.error("Error fetching game data:", error);
+        // Handle the error, e.g., show an error message to the user
+      }
     };
-
     fetchGameData();
   }, []);
 

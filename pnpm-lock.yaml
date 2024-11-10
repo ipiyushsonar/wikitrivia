@@ -58,6 +58,9 @@ importers:
       '@types/react':
         specifier: ^18.0.28
         version: 18.3.12
+      '@types/react-beautiful-dnd':
+        specifier: ^13.1.8
+        version: 13.1.8
       '@types/react-no-ssr':
         specifier: ^1.1.7
         version: 1.1.7
@@ -1258,6 +1261,9 @@ packages:
 
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
+
+  '@types/react-beautiful-dnd@13.1.8':
+    resolution: {integrity: sha512-E3TyFsro9pQuK4r8S/OL6G99eq7p8v29sX0PM7oT8Z+PJfZvSQTx4zTQbUJ+QZXioAF0e7TGBEcA1XhYhCweyQ==}
 
   '@types/react-no-ssr@1.1.7':
     resolution: {integrity: sha512-ccIthMjeaplgCSv5hNvMsP27RVYpga5E5Nog7nkNaMLkvw3Q4wfVHtJPel/SisNVoXr/6mI8O/gv8A58maipsA==}
@@ -4805,6 +4811,10 @@ snapshots:
   '@types/node@16.18.119': {}
 
   '@types/prop-types@15.7.13': {}
+
+  '@types/react-beautiful-dnd@13.1.8':
+    dependencies:
+      '@types/react': 18.3.12
 
   '@types/react-no-ssr@1.1.7':
     dependencies:

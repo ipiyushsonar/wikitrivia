@@ -1,6 +1,6 @@
 {
   "name": "wikitrivia-history-game",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@types/node": "^16.18.119",
     "@types/react": "^18.0.28",
+    "@types/react-beautiful-dnd": "^13.1.8",
     "@types/react-no-ssr": "^1.1.7",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.0",

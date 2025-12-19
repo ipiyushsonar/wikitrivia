@@ -30,9 +30,22 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install ESLint
-        run: |
-          npm install @microsoft/eslint-formatter-sarif@3.1.0
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Install SARIF formatter
+        run: pnpm add -D @microsoft/eslint-formatter-sarif@3.1.0
 
       - name: Run ESLint
         env:
@@ -49,3 +62,9 @@ jobs:
         with:
           sarif_file: eslint-results.sarif
           wait-for-processing: true
+      
+      - name: 'notify vercel'
+        uses: 'vercel/repository-dispatch/actions/status@v1'
+        with:
+          name: 'Vercel - wikitrivia: notify eslint'
+          status: ${{ job.status }}

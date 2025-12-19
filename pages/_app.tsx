@@ -1,5 +1,6 @@
 import React from "react";
 import { AppProps } from "next/app";
+import { Analytics } from "@vercel/analytics/next";
 import { polyfill } from "seamless-scroll-polyfill";
 import "../styles/globals.scss";
 
@@ -8,7 +9,12 @@ function App({ Component, pageProps }: AppProps) {
     polyfill();
   }, []);
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
 }
 
 export default App;

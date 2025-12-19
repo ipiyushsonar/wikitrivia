@@ -66,5 +66,5 @@ jobs:
       - name: 'notify vercel'
         uses: 'vercel/repository-dispatch/actions/status@v1'
         with:
-          name: 'Vercel - wikitrivia: notify eslint'
+          name: Vercel - wikitrivia: notify eslint
           status: ${{ job.status }}

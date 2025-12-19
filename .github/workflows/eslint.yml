@@ -62,9 +62,3 @@ jobs:
         with:
           sarif_file: eslint-results.sarif
           wait-for-processing: true
-      
-      - name: 'notify vercel'
-        uses: 'vercel/repository-dispatch/actions/status@v1'
-        with:
-          name: Vercel - wikitrivia: notify eslint
-          status: ${{ job.status }}

@@ -20,7 +20,7 @@
     "react-github-btn": "^1.4.0",
     "react-loader-spinner": "^4.0.0",
     "react-spring": "^9.7.5",
-    "seamless-scroll-polyfill": "^1.2.4",
+    "seamless-scroll-polyfill": "^2.3.4",
     "tween-functions": "^1.2.0"
   },
   "devDependencies": {

@@ -24,7 +24,7 @@
     "tween-functions": "^1.2.0"
   },
   "devDependencies": {
-    "@types/node": "^22.20.5",
+    "@types/node": "^24.19.2",
     "@types/react": "^18.3.31",
     "@types/react-beautiful-dnd": "^13.1.8",
     "@types/react-no-ssr": "^1.1.8",

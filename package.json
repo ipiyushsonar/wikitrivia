@@ -19,7 +19,7 @@
     "react-dom": "^18.3.1",
     "react-github-btn": "^1.4.0",
     "react-loader-spinner": "^4.0.0",
-    "react-spring": "^9.7.5",
+    "react-spring": "^10.0.4",
     "seamless-scroll-polyfill": "^2.3.4",
     "tween-functions": "^1.2.0"
   },

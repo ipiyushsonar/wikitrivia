@@ -40,7 +40,7 @@ importers:
     dependencies:
       '@vercel/analytics':
         specifier: ^2.0.1
-        version: 2.0.1(next@16.4.5(@babel/core@7.29.13)(@types/node@18.19.130)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0))(react@18.3.1)
+        version: 2.0.1(next@16.4.5(@babel/core@7.29.13)(@types/node@20.19.43)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0))(react@18.3.1)
       axios:
         specifier: ^1.21.0
         version: 1.21.0
@@ -49,7 +49,7 @@ importers:
         version: 2.5.1
       next:
         specifier: ^16.4.5
-        version: 16.4.5(@babel/core@7.29.13)(@types/node@18.19.130)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0)
+        version: 16.4.5(@babel/core@7.29.13)(@types/node@20.19.43)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -76,8 +76,8 @@ importers:
         version: 1.2.0
     devDependencies:
       '@types/node':
-        specifier: ^18.19.130
-        version: 18.19.130
+        specifier: ^20.19.43
+        version: 20.19.43
       '@types/react':
         specifier: ^18.3.31
         version: 18.3.31
@@ -1399,6 +1399,9 @@ packages:
 
   '@types/node@18.19.130':
     resolution: {integrity: sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg==}
+
+  '@types/node@20.19.43':
+    resolution: {integrity: sha512-6oYBAi5ikg4Pl+kGsoYtawUMBT2zZMCvPNF7pVLnHZfd1zf38DRiWn/gT01RYCdUqkv7Fhr+C9ot4/tb+2sVvA==}
 
   '@types/prop-types@15.7.15':
     resolution: {integrity: sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==}
@@ -3513,6 +3516,9 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+
   unicode-canonical-property-names-ecmascript@2.0.1:
     resolution: {integrity: sha512-dA8WbNeb2a6oQzAQ55YlT5vQAWGV9WXOsi3SskE3bcCdM0P4SDd+24zS/OCacdRq5BkdsRj9q3Pg6YyQoxIGqg==}
     engines: {node: '>=4'}
@@ -5148,6 +5154,10 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
+  '@types/node@20.19.43':
+    dependencies:
+      undici-types: 6.21.0
+
   '@types/prop-types@15.7.15': {}
 
   '@types/react-beautiful-dnd@13.1.8':
@@ -5271,9 +5281,9 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vercel/analytics@2.0.1(next@16.4.5(@babel/core@7.29.13)(@types/node@18.19.130)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0))(react@18.3.1)':
+  '@vercel/analytics@2.0.1(next@16.4.5(@babel/core@7.29.13)(@types/node@20.19.43)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0))(react@18.3.1)':
     optionalDependencies:
-      next: 16.4.5(@babel/core@7.29.13)(@types/node@18.19.130)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0)
+      next: 16.4.5(@babel/core@7.29.13)(@types/node@20.19.43)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0)
       react: 18.3.1
 
   abort-controller@3.0.0:
@@ -6860,7 +6870,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@16.4.5(@babel/core@7.29.13)(@types/node@18.19.130)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0):
+  next@16.4.5(@babel/core@7.29.13)(@types/node@20.19.43)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.108.0):
     dependencies:
       '@next/env': 16.4.5
       '@swc/helpers': 0.5.23
@@ -6880,7 +6890,7 @@ snapshots:
       '@next/swc-win32-arm64-msvc': 16.4.5
       '@next/swc-win32-x64-msvc': 16.4.5
       sass: 1.108.0
-      sharp: 0.35.5(@types/node@18.19.130)
+      sharp: 0.35.5(@types/node@20.19.43)
     transitivePeerDependencies:
       - '@babel/core'
       - '@types/node'
@@ -7445,7 +7455,7 @@ snapshots:
     dependencies:
       kind-of: 6.0.3
 
-  sharp@0.35.5(@types/node@18.19.130):
+  sharp@0.35.5(@types/node@20.19.43):
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
@@ -7476,7 +7486,7 @@ snapshots:
       '@img/sharp-win32-arm64': 0.35.5
       '@img/sharp-win32-ia32': 0.35.5
       '@img/sharp-win32-x64': 0.35.5
-      '@types/node': 18.19.130
+      '@types/node': 20.19.43
     optional: true
 
   shebang-command@2.0.0:
@@ -7728,6 +7738,8 @@ snapshots:
       which-boxed-primitive: 1.1.1
 
   undici-types@5.26.5: {}
+
+  undici-types@6.21.0: {}
 
   unicode-canonical-property-names-ecmascript@2.0.1: {}
 

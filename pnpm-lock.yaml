@@ -68,8 +68,8 @@ importers:
         specifier: ^9.7.5
         version: 9.7.5(@react-three/fiber@8.17.10(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react-native@0.76.1(@babel/core@7.29.13)(@babel/preset-env@7.26.0(@babel/core@7.29.13))(@types/react@18.3.31)(react@18.3.1))(react@18.3.1)(three@0.170.0))(konva@9.3.16)(react-dom@18.3.1(react@18.3.1))(react-konva@18.2.10(@types/react@18.3.31)(konva@9.3.16)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-native@0.76.1(@babel/core@7.29.13)(@babel/preset-env@7.26.0(@babel/core@7.29.13))(@types/react@18.3.31)(react@18.3.1))(react-zdog@1.2.2)(react@18.3.1)(three@0.170.0)(zdog@1.1.3)
       seamless-scroll-polyfill:
-        specifier: ^1.2.4
-        version: 1.2.4
+        specifier: ^2.3.4
+        version: 2.3.4
       tween-functions:
         specifier: ^1.2.0
         version: 1.2.0
@@ -3218,8 +3218,8 @@ packages:
   scheduler@0.24.0-canary-efb381bbf-20230505:
     resolution: {integrity: sha512-ABvovCDe/k9IluqSh4/ISoq8tIJnW8euVAWYt5j/bg6dRnqwQwiGO1F/V4AyK96NGF/FB04FhOUDuWj8IKfABA==}
 
-  seamless-scroll-polyfill@1.2.4:
-    resolution: {integrity: sha512-1CwHvQRS88m/HwN76hnjFu9dzU2HUJmGbvUkKMoRq70o6Pd1DcD4aGvsku0OqRhUuFKQOsjm0Imo1cC/PWWOfA==}
+  seamless-scroll-polyfill@2.3.4:
+    resolution: {integrity: sha512-Biobd4LDoeFODX1bfiru84GveSajzFELFB3ejMZsRR2TpD73W46uEZYAEqSx5RtKpN2umhGWaoSRivs0ZcHp9g==}
 
   selfsigned@2.4.1:
     resolution: {integrity: sha512-th5B4L2U+eGLq1TVh7zNRGBapioSORUeymIydxgFpwww9d2qyKvtuPU2jJuHvYAwwqi2Y596QBL3eEqcPEYL8Q==}
@@ -7388,7 +7388,7 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
 
-  seamless-scroll-polyfill@1.2.4: {}
+  seamless-scroll-polyfill@2.3.4: {}
 
   selfsigned@2.4.1:
     dependencies:

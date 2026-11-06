@@ -18,7 +18,7 @@
     "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.3.1",
     "react-github-btn": "^1.4.0",
-    "react-loader-spinner": "^5.4.5",
+    "react-loader-spinner": "^6.1.6",
     "react-spring": "^10.0.4",
     "seamless-scroll-polyfill": "^2.3.4",
     "tween-functions": "^1.2.0"

@@ -9,7 +9,7 @@ export default [
   js.configs.recommended,
   react.configs.flat.recommended,
   ...tseslint.configs["flat/recommended"],
-  ...[].concat(reactHooks.configs["flat/recommended"]),
+  ...[].concat(reactHooks.configs.flat.recommended),
   {
     languageOptions: {
       ecmaVersion: 12,

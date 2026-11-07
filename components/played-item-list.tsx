@@ -15,11 +15,9 @@ export default function PlayedItemList(props: PlayedItemListProps) {
 
   const [flippedId, setFlippedId] = React.useState<null | string>(null);
 
-  React.useEffect(() => {
-    if (isDragging && flippedId !== null) {
-      setFlippedId(null);
-    }
-  }, [flippedId, isDragging]);
+  if (isDragging && flippedId !== null) {
+    setFlippedId(null);
+  }
 
   return (
     <div className={styles.wrapper}>

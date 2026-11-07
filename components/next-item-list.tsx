@@ -1,5 +1,5 @@
 import React from "react";
-import { Droppable } from "react-beautiful-dnd";
+import { Droppable } from "@hello-pangea/dnd";
 import { Item } from "../types/item";
 import ItemCard from "./item-card";
 import styles from "../styles/next-item-list.module.scss";

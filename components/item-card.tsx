@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import { useSpring, animated } from "react-spring";
-import { Draggable } from "react-beautiful-dnd";
+import { Draggable } from "@hello-pangea/dnd";
 import { Item, PlayedItem } from "../types/item";
 import { createWikimediaImage } from "../lib/image";
 import styles from "../styles/item-card.module.scss";
